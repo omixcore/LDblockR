@@ -1,0 +1,7 @@
+#Detected VCF File is phased file with '|', Read VCF in Phase mode
+##Start Region Cal...	 :chr1 1000000 1100000; In This Region TotalSNP Number is 42
+Warining: SVG module in Perl is missing, trying to loading the built-in [SVG.pm]...
+Loading SVG module done
+Start draw... SVG info: SNPNumber :42 , SVG (width,height) = (2415,1785)
+ALL done
+find blocks...

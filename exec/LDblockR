@@ -1,0 +1,4 @@
+#!/usr/bin/env Rscript
+
+suppressPackageStartupMessages(library(LDblockR))
+LDblockR::ldblockr_cli()

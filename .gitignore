@@ -1,0 +1,15 @@
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj.user
+LDblockR_*.tar.gz
+LDblockR_results/
+integrated_region_results/
+LD_regions/
+Figure_*.pdf
+Figure_*.png
+Figure_*.svg
+regional_LD.pdf
+regional_LD.svg
+regional_LD.png

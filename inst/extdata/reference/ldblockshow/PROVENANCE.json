@@ -1,0 +1,13 @@
+{
+  "software": "LDBlockShow",
+  "documented_version": "1.41",
+  "repository": "https://github.com/hewm2008/LDBlockShow",
+  "commit": "1fc8cecbabf25416fa90de9c91a4e10656463738",
+  "executed_platform": "Linux x86_64",
+  "binary_sha256": "0bbdc93ccd5d9aeb53c3a499cfb0455eb11ec536b11fca65b351bf2c4e81e826",
+  "command": "LDBlockShow -InVCF example.vcf.gz -OutPut synthetic -Region chr1:1000000:1100000 -SeleVar 3 -BlockType 5 -MAF 0.01 -Miss 1 -Het 1",
+  "input_sha256": "78884513f8c7e93fec04b0f9f92c5f2a119bd92c6cad082c760ae7e35881f2c2",
+  "output_precision_decimals": 3,
+  "absolute_tolerance": 0.00051,
+  "scope": "Phased r-squared and absolute D-prime for all 861 pairs. No block-boundary equivalence claim."
+}

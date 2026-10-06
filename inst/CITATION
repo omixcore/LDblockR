@@ -1,0 +1,11 @@
+bibentry(
+  bibtype = "Manual",
+  title = "LDblockR: An Object-Oriented R Framework for Reproducible Linkage Disequilibrium Analysis and Regional Visualization",
+  author = c(
+    person("Xiaofeng", "Song"),
+    person("Pengyu", "Chen"),
+    person("Fei", "Liang")
+  ),
+  year = "2026",
+  note = "R package version 0.0.1; accompanying manuscript and source release"
+)

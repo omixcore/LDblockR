@@ -6,7 +6,7 @@ The current submitted version is **0.0.1**. The canonical project repository, so
 <https://gitee.com/anhuikylin/LDblockR>.
 
 A public GitHub mirror is also available for code browsing and collaboration:
-<https://github.com/anhuikylin/LDblockR>.
+<https://github.com/w1996jy/LDblockR>.
 
 The package depends only on R's recommended components and does not require `ggplot2`, Bioconductor, or Java. Plain VCF/VCF.GZ files can be read directly; when `bcftools` is installed, indexed VCF region extraction is automatically accelerated.
 

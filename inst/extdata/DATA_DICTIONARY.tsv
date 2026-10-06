@@ -1,0 +1,20 @@
+file	format	size_or_shape	used_for	source
+data/ldblockr_builtin/example.vcf.gz	Phased VCF	60 samples x 42 SNPs	Main LD r2/Dprime, Gabriel blocks, haplotypes, tagSNP, plotting	LDblockR built-in synthetic validation data
+data/ldblockr_builtin/example.vcf	Uncompressed phased VCF	same as above	Human-readable VCF input example	Derived from LDblockR built-in example.vcf.gz
+data/ldblockr_builtin/example.hmp.txt	HapMap	60 x 42	HapMap input example	LDblockR built-in
+data/ldblockr_builtin/example_matrix.tsv	0/1/2 genotype matrix	60 x 42	Matrix input example	LDblockR built-in
+data/ldblockr_builtin/example_map.tsv	SNP map	42 SNPs	Coordinates/alleles for matrix input	LDblockR built-in
+data/plink/example_plink.ped + .map	PLINK text	60 x 42	PLINK PED/MAP input	Converted from built-in genotype matrix
+data/plink/example_plink.bed + .bim + .fam	PLINK binary	60 x 42	PLINK BED/BIM/FAM input	Converted from built-in genotype matrix
+data/ldblockr_builtin/example_gwas.tsv	Regional GWAS	42 SNPs	GWAS association track	LDblockR built-in
+data/ldblockr_builtin/regional_gwas.tsv	Regional GWAS	42 SNPs	Built-in regional GWAS input for read_gwas() and plot_ld()	LDblockR built-in; duplicate of example_gwas.tsv for the documented regional workflow
+data/ldblockr_builtin/example.gff3	GFF3	3 genes + transcript features	Gene annotation track	LDblockR built-in
+data/ldblockr_builtin/example_fixed_blocks.tsv	chr/start/end	3 intervals	Fixed block demonstration	LDblockR built-in
+data/ldblockr_builtin/example_special.tsv	chr/pos/label	3 variants	Highlighted/special SNPs	LDblockR built-in
+data/ldblockr_builtin/example_regions.tsv	chr/start/end	2 intervals	Batch-region workflow	LDblockR built-in
+data/ldblockr_builtin/subpopulation_A.txt	sample list	30 samples	Sample subset demonstration	LDblockR built-in
+data/ldblockr_builtin/subpopulation_B.txt	sample list	30 samples	Sample subset demonstration	Generated complement
+data/ldblockr_builtin/sample_groups.tsv	sample/group	60 samples, 2 groups	ld_by_group and group-specific LD plots	Generated from built-in samples
+data/tassel_official/rt_sub_chr1.vcf	Official TASSEL VCF	5 taxa x 11 sites	Official VCF compatibility/input example	maize-genetics/rTASSEL
+data/tassel_official/download_tassel_official_data.R	R downloader	public upstream files	Downloads full TASSEL/rTASSEL examples	Generated helper script
+extdata/tassel/mdp_genotype.hmp.txt	HapMap	281 taxa x 3,093 SNPs	Real maize genotype input and regional LD example	maize-genetics/rTASSEL pinned commit e8cbfcce47422319b5bfe8376cf5550ebd3b365e

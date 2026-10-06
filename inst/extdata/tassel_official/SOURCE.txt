@@ -1,0 +1,23 @@
+TASSEL / rTASSEL official example data
+=======================================
+
+Bundled small VCF:
+  Repository: maize-genetics/rTASSEL
+  Path: inst/extdata/rt_sub_chr1.vcf
+  Source: https://github.com/maize-genetics/rTASSEL/blob/master/inst/extdata/rt_sub_chr1.vcf
+  Git blob SHA: 7339a9298075490d921920b92771cda861d0c539
+
+Full maize VCF used in the rTASSEL vignette:
+  File: maize_chr9_10thin40000.recode.vcf
+  Repository path: inst/extdata/maize_chr9_10thin40000.recode.vcf
+  Source: https://github.com/maize-genetics/rTASSEL/blob/master/inst/extdata/maize_chr9_10thin40000.recode.vcf
+  Raw: https://raw.githubusercontent.com/maize-genetics/rTASSEL/master/inst/extdata/maize_chr9_10thin40000.recode.vcf
+  Git blob SHA: 016ef9420312e2305e20c69fad225de0411ae056
+
+Other official rTASSEL extdata files available from the same directory include
+mdp_genotype.hmp.txt, mdp_phenotype.txt, mdp_population_structure.txt, and
+wheat_gbs_test.vcf.
+
+The small VCF is bundled here only to provide an immediately inspectable official
+TASSEL-format VCF. Use download_tassel_official_data.R to retrieve the full
+public examples directly from the upstream repository.

@@ -1,0 +1,2 @@
+# Preserve the upstream HapMap file byte-for-byte, including CRLF line endings.
+inst/extdata/tassel/mdp_genotype.hmp.txt -text -diff

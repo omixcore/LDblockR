@@ -1,0 +1,15 @@
+##gff-version 3
+chr1	LDblockR	gene	1000904	1019036	.	+	.	ID=ZmGene01;Name=ZmGene01
+chr1	LDblockR	mRNA	1000904	1019036	.	+	.	ID=ZmGene01_T01;Parent=ZmGene01;Name=ZmGene01_T01
+chr1	LDblockR	five_prime_UTR	1000904	1004439	.	+	.	ID=utr1;Parent=ZmGene01_T01
+chr1	LDblockR	CDS	1004439	1008886	.	+	0	ID=cds1;Parent=ZmGene01_T01
+chr1	LDblockR	CDS	1013122	1016804	.	+	0	ID=cds2;Parent=ZmGene01_T01
+chr1	LDblockR	three_prime_UTR	1016804	1019036	.	+	.	ID=utr2;Parent=ZmGene01_T01
+chr1	LDblockR	gene	1024277	1042826	.	-	.	ID=ZmGene02;Name=ZmGene02
+chr1	LDblockR	mRNA	1024277	1042826	.	-	.	ID=ZmGene02_T01;Parent=ZmGene02;Name=ZmGene02_T01
+chr1	LDblockR	CDS	1026178	1031123	.	-	0	ID=cds3;Parent=ZmGene02_T01
+chr1	LDblockR	CDS	1035520	1040281	.	-	0	ID=cds4;Parent=ZmGene02_T01
+chr1	LDblockR	gene	1044974	1059726	.	+	.	ID=ZmGene03;Name=ZmGene03
+chr1	LDblockR	mRNA	1044974	1059726	.	+	.	ID=ZmGene03_T01;Parent=ZmGene03;Name=ZmGene03_T01
+chr1	LDblockR	CDS	1047045	1051619	.	+	0	ID=cds5;Parent=ZmGene03_T01
+chr1	LDblockR	CDS	1054556	1058726	.	+	0	ID=cds6;Parent=ZmGene03_T01

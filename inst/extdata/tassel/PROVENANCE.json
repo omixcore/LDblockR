@@ -1,0 +1,59 @@
+{
+  "repository": "https://github.com/maize-genetics/rTASSEL",
+  "commit": "e8cbfcce47422319b5bfe8376cf5550ebd3b365e",
+  "retrieved": "2026-09-02",
+  "files": [
+    {
+      "file": "mdp_genotype.hmp.txt",
+      "url": "https://raw.githubusercontent.com/maize-genetics/rTASSEL/e8cbfcce47422319b5bfe8376cf5550ebd3b365e/inst/extdata/mdp_genotype.hmp.txt",
+      "bytes": 2796284,
+      "sha256": "e9715509e8270b6ada876d2252a337f392fbc31e005b124d858af8c14e79fdeb",
+      "package_bytes": 2796284,
+      "package_sha256": "e9715509e8270b6ada876d2252a337f392fbc31e005b124d858af8c14e79fdeb",
+      "package_line_endings": "CRLF",
+      "byte_identical_to_upstream": true,
+      "identical_to_supplied_file": true
+    },
+    {
+      "file": "mdp_traits.txt",
+      "url": "https://raw.githubusercontent.com/maize-genetics/rTASSEL/e8cbfcce47422319b5bfe8376cf5550ebd3b365e/inst/extdata/mdp_traits.txt",
+      "bytes": 6631,
+      "sha256": "f1da902d01be33d77da213d5394377ed192499c254562344f24e31dff52dbef0",
+      "package_bytes": 6329,
+      "package_sha256": "3c9a59ddc83001f6823d7eabaea3172619b000e53a30236ec4981e8b1e3b3bb9",
+      "package_line_endings": "LF",
+      "byte_identical_to_upstream": false
+    },
+    {
+      "file": "mdp_phenotype.txt",
+      "url": "https://raw.githubusercontent.com/maize-genetics/rTASSEL/e8cbfcce47422319b5bfe8376cf5550ebd3b365e/inst/extdata/mdp_phenotype.txt",
+      "bytes": 22782,
+      "sha256": "56998e692bd533c23c9a1e4d2fe6e8e204db92dc471beae71c59bcd703ccd54b",
+      "package_bytes": 22782,
+      "package_sha256": "56998e692bd533c23c9a1e4d2fe6e8e204db92dc471beae71c59bcd703ccd54b",
+      "package_line_endings": "LF",
+      "byte_identical_to_upstream": true
+    },
+    {
+      "file": "mdp_population_structure.txt",
+      "url": "https://raw.githubusercontent.com/maize-genetics/rTASSEL/e8cbfcce47422319b5bfe8376cf5550ebd3b365e/inst/extdata/mdp_population_structure.txt",
+      "bytes": 6741,
+      "sha256": "7730515ebdfd6c48e4a8d8552b44f50365432f3026df1dc107e8117fa3ddaee5",
+      "package_bytes": 6741,
+      "package_sha256": "7730515ebdfd6c48e4a8d8552b44f50365432f3026df1dc107e8117fa3ddaee5",
+      "package_line_endings": "LF",
+      "byte_identical_to_upstream": true
+    },
+    {
+      "file": "mdp_kinship.txt",
+      "url": "https://raw.githubusercontent.com/maize-genetics/rTASSEL/e8cbfcce47422319b5bfe8376cf5550ebd3b365e/inst/extdata/mdp_kinship.txt",
+      "bytes": 383243,
+      "sha256": "ce843bcf4469f280ba486dd59d63059fcc8081e4a160def33ae6c723eb5eee18",
+      "package_bytes": 382965,
+      "package_sha256": "43399c9f7055aa3559dc4f0cb2addbb5cd7fcbe9c87db27b18af3141128c540e",
+      "package_line_endings": "LF",
+      "byte_identical_to_upstream": false
+    }
+  ],
+  "provenance_note": "The supplied mdp_genotype.hmp.txt is preserved byte-for-byte. Packaged checksums are recorded separately because line endings in mdp_traits.txt and mdp_kinship.txt are normalized to LF; all other tabular content is unchanged."
+}
