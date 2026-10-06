@@ -3,7 +3,7 @@
 `LDblockR` is an installable R package for regional linkage disequilibrium (LD) analysis and visualization. It covers the main workflow of LDBlockShow while adding HapMap input, subpopulation comparisons, LD decay, haplotype frequency estimation, batch region processing, a pure R API, and automatic large-matrix rasterization.
 
 The current submitted version is **0.0.1**. The canonical project repository, source code, and issue tracking are hosted on Gitee:
-<https://gitee.com/anhuikylin/LDblockR>.
+<https://gitee.com/omixcore/LDblockR>.
 
 A public GitHub mirror is also available for code browsing and collaboration:
 <https://github.com/omixcore/LDblockR>.
@@ -455,17 +455,17 @@ LDblockR -InVCF inst/extdata/example.vcf.gz -OutPut LDblockR_demo_alias \
   -OutPdf -OutPng
 ```
 
-## Reproducibility and Figure 2
+## Reproducibility and Supplementary Figure S1
 
 The repository includes the input files and archived reference outputs required to reproduce the numerical validation and manuscript figures. The regional synthetic bundle is stored in `inst/extdata/`, including `example.vcf.gz`, `example.hmp.txt`, `example_matrix.tsv`, `example_map.tsv`, `regional_gwas.tsv`, `example.gff3`, `example_fixed_blocks.tsv`, `example_special.tsv`, `subpopulation_A.txt`, `subpopulation_B.txt`, and `example_regions.tsv`. The PLINK examples are in `inst/extdata/plink/`. The archived pairwise reference table is `inst/extdata/reference/synthetic_reference_pairs.tsv`, and the externally generated LDBlockShow 1.41 outputs are in `inst/extdata/reference/ldblockshow/`.
 
-Figure 2 combines two explicitly documented sources. The regional demonstration uses the bundled synthetic genotype/GWAS/annotation files in `inst/extdata/`; these files are supplied for reproducible plotting and are not an external population dataset. The numerical validation compares 861 phased synthetic SNP pairs with the archived LDBlockShow 1.41 reference output. The official rTASSEL maize tutorial files are used separately for the maize QC and regional-analysis example. Thus, no missing file such as `population.vcf.gz` or `maize507.hmp.txt.gz` is required. The reproduction script performs the input-consistency checks, pairwise comparison, archived-output check, and maize analysis, then writes the validation tables and figures:
+Supplementary Figure S1 presents the real-data LD analysis using the official maize TASSEL association-panel tutorial data. It shows pairwise-complete dosage r² for 428 post-QC SNPs on AGPv1 chromosome 1 across 281 inbred lines (91,378 unique pairs; pairwise sample sizes 201–281), with a zoom of the densest 1-Mb window (16 SNPs and 120 pairs; pairwise sample sizes 226–277). Before analysis, 48 of 3,093 markers with calls conflicting with their declared alleles were excluded; MAF ≥ 0.05 retained 2,526 markers genome-wide. Independent calculations from the source HapMap calls matched the archived 1-Mb pair table (maximum absolute difference 5.01 × 10⁻¹³). The repository also includes bundled synthetic examples for reproducible plotting and an independent numerical comparison of 861 phased synthetic SNP pairs against the archived LDBlockShow 1.41 reference output. No separate `population.vcf.gz` or `maize507.hmp.txt.gz` file is required. Run the reproduction script to perform the consistency checks and generate validation tables and figures:
 
 ```bash
 Rscript scripts/reproduce_manuscript.R LDblockR_results
 ```
 
-The Figure 2 files are written to `LDblockR_results/figures/Figure_2_reference_results.pdf`, `.svg`, and `.png`. The numerical records are written to `LDblockR_results/results/R_numerical_validation.tsv`, `R_synthetic_pair_validation.tsv`, `R_maize_pair_validation.tsv`, and `R_reproduction_summary.tsv`. The script requires an installed copy of this package; run `R CMD INSTALL` first when working from a fresh clone.
+The reproduction script currently writes the figure files to `LDblockR_results/figures/Figure_2_reference_results.pdf`, `.svg`, and `.png`; this output depicts the analysis now identified as Supplementary Figure S1 in the manuscript. The numerical records are written to `LDblockR_results/results/R_numerical_validation.tsv`, `R_synthetic_pair_validation.tsv`, `R_maize_pair_validation.tsv`, and `R_reproduction_summary.tsv`. The script requires an installed copy of this package; run `R CMD INSTALL` first when working from a fresh clone.
 
 The source package also includes a script to reproduce the integrated regional view reference figure:
 
