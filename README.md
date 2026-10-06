@@ -33,6 +33,10 @@ The package depends only on R's recommended components and does not require `ggp
 ## Installation
 
 ```r
+# Install from GitHub
+pak::pak("omixcore/LDblockR")
+
+# Or install from Gitee
 pak::pak("git::https://gitee.com/omixcore/LDblockR.git")
 
 library(LDblockR)
@@ -41,10 +45,13 @@ packageVersion("LDblockR")  # 0.0.1
 
 The package is a pure R source package and can be installed on Linux, macOS, and Windows without a compiler.
 
-You can obtain the source code from either repository and build locally. The Gitee repository is the canonical source; the GitHub repository is a public mirror:
+You can obtain the source code from either repository and build locally:
 
 ```bash
-# Gitee
+# GitHub
+git clone https://github.com/omixcore/LDblockR.git
+
+# Or Gitee
 git clone https://gitee.com/omixcore/LDblockR.git
 
 R CMD build LDblockR
