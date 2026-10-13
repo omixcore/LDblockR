@@ -503,7 +503,7 @@ If you use LDblockR in your research, please cite:
 
 > Song, X., Chen, P., and Liang, F. (2026). LDblockR: a cross-platform R toolkit for multi-format linkage disequilibrium analysis and integrated regional genomics visualization. *Frontiers in Plant Science*. DOI: [10.3389/fpls.2026.1991155](https://doi.org/10.3389/fpls.2026.1991155).
 
-[Article page](https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1991155/abstract).
+[Article page](https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1991155/full).
 
 ```bibtex
 @article{Song2026LDblockR,
@@ -512,7 +512,7 @@ If you use LDblockR in your research, please cite:
   journal = {Frontiers in Plant Science},
   year    = {2026},
   doi     = {10.3389/fpls.2026.1991155},
-  url     = {https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1991155/abstract}
+  url     = {https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1991155/full}
 }
 ```
 
