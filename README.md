@@ -499,5 +499,21 @@ Complete cross-validation results against the official LDBlockShow are documente
 
 ## Citation
 
+If you use LDblockR in your research, please cite:
+
+> Song, X., Chen, P., and Liang, F. (2026). LDblockR: a cross-platform R toolkit for multi-format linkage disequilibrium analysis and integrated regional genomics visualization. *Frontiers in Plant Science*. In press.
+
+The article was accepted on 13 October 2026. The final formatted version is forthcoming; the DOI and article number will be added once available.
+
+```bibtex
+@article{Song2026LDblockR,
+  author  = {Song, Xiaofeng and Chen, Pengyu and Liang, Fei},
+  title   = {{LDblockR}: a cross-platform {R} toolkit for multi-format linkage disequilibrium analysis and integrated regional genomics visualization},
+  journal = {Frontiers in Plant Science},
+  year    = {2026},
+  note    = {In press; accepted 13 October 2026}
+}
+```
+
 If your research is inspired by the LDBlockShow methodology, please also cite its original paper:
-Dong et al. (2021), *Briefings in Bioinformatics*, DOI: 10.1093/bib/bbaa227.
+Dong et al. (2021), *Briefings in Bioinformatics*, DOI: [10.1093/bib/bbaa227](https://doi.org/10.1093/bib/bbaa227).
